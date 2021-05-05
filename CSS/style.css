@@ -1,0 +1,401 @@
+
+
+/* FONTS H1-H2 BEBAS NEAUVES H3 DOWN POPPINS*/
+h1{
+    font-family: 'Bebas Neue';
+    box-shadow: rgba(255, 232, 31);
+    font-size: 100px;
+    color: rgba(255, 232, 31);
+    display: block;
+    padding: 4px;
+    margin-left: 3px;
+}
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    position: relative;
+    padding: 4px;
+    margin-left: 3px;
+    text-align: left;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+h4{
+    font-size: 30px ;
+    font-weight:500;
+    font-family: 'Poppins', sans-serif;
+}
+h5{
+    font-size: 30px;
+    font-weight: 400px;
+    font-family: 'Poppins', sans-serif;
+}
+h6{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: 300px;
+    font-family: 'Poppins', sans-serif;
+    padding: 4px;
+    margin-left: 3px;
+    text-align: left;
+}
+
+/* nav-HEADER*/
+.body{
+    display: inline-block;
+}
+.navbar {
+    background-color:#A0ACF2 !important ;
+}
+.Navigation{
+    display: flex;
+    vertical-align: top;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    height: 70px;
+    background-color: #A0ACF2 !important;
+}
+
+#primaryNav{
+    width: auto;
+    padding: 1%;
+    margin-left: auto;
+    flex-direction: row;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    list-style: none;
+    float: right;
+    color: white;
+}
+.topNav{
+    width: 73%%;
+    margin-left: auto;
+    vertical-align: top;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    font-size: 20px;
+    cursor: pointer;
+}
+.heroContent h4{
+  padding: 2px;
+
+}
+.sectionHeading {
+  text-align: left;
+}
+.CaseNav {
+  background-color: #A0ACF2;
+  text-align: center;
+  align-content: center;
+  justify-content: center !important;
+}
+.skillsPics {
+  width: 90%;
+  padding: 25px;
+}
+.jumbotron {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  height: calc(100vh - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rockBackground {
+  background-image: url(../Images/Yoda);
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+/* FOOTER*/
+.quickLinks{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    text-align: center;
+    align-items: center;
+    float: left;
+    margin-left: 30px;
+    grid-area: quickLinks;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+    align-items: right;
+    justify-content:flex-end;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #373738;
+    padding: 5px;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "quickLinks" "socials"
+    "copyRight" "copyRight";
+}
+li{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+li :hover{
+    color: #F59836;
+    transform: scale(1);
+}
+.quickLinks :hover{
+    color: #F59836;
+    transition: all;
+}
+}
+.socials :hover{
+    transform: scale(1.5);
+}
+.copyRight{
+    justify-content: center;
+    background-color: black;
+    align-content: center;
+    color: white;
+    text-align: center;
+    grid-area: copyRight;
+    display: grid;
+    margin: 0;
+    padding: 5px;
+    height: 30px;
+}
+.copyRight p{
+    font-size: 12px;
+}
+/* HOMEPAGE-BODYCONTENT*/
+  .customNav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color:#A0ACF2;
+  }
+  .navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+  .nav-item{
+    margin: 0 15px;
+  }
+
+  .customNav a{
+    color: white !important;
+  }
+  .jumbotron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content{
+    padding: 50px;
+  }
+  .sectionHeading{
+    text-align: center;
+  }
+  .showsNear{
+    padding: 0px 30px 30px 30px;
+  }
+  .valueProp{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .nav-link{
+    color: white;
+    padding: 10px;
+    
+    display: inline-flex;
+  }
+  .sectionImage{
+    background-image: url(../Images/sections.png);
+    max-width: 100%;
+  }
+  .aboutText p{
+  padding: 2px;
+  align-items: flex-start;
+  text-align: left;
+  }
+  .imageContainer img{
+    width: 100%;
+  }
+  .container-fluid{
+    padding: 50px;
+  }
+  .container-fluid content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .infoHead{
+    margin-top: 15px;
+  margin-bottom: 15px;
+  }
+  footer {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+  } 
+  .cardContainer {
+    margin-top: 20px;
+    text-align: left;
+    object-fit: fill;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  .flexContainer {
+    display: flex;
+    padding: 60px 30px;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+  }
+  .flexContainer {
+    display: flex;
+    padding: 10px;
+    object-fit: fill;
+  }
+  .flexContainer div {
+    width: 33%;
+    padding: 25px;
+    object-fit: fill;
+  }
+
+  .userFlow{
+    max-width: -webkit-fill-available;
+    object-fit: fill;
+  }
+  .jumboTron {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flexContainer{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+/* ABOUT ME SECTION*/
+.aboutMe {
+    display: flex;
+    align-items: center;
+    margin-top: -50px;    
+}
+.profileImage{
+  margin-left: -15px;
+}
+.aboutText{
+    margin-right: 6px;
+    justify-content: flex-start;
+    margin-bottom: -20px;
+    margin-top: 100px;
+}
+.aboutText h5{
+  margin-top: 20px;
+}
+.skillsPics{
+  object-fit:cover;
+
+}
+/* jquery */
+
+.nav-link :hover{
+    color: #F59836;
+    opacity: 80%;
+}
+#conDeets :hover{
+    background-color: rgba(183, 176, 232, .30) ;
+    text-size-adjust: 10px;
+    
+}
+/* jquery */
+.nav-item :hover{
+color: #F59836;
+opacity: 80%;
+}
+.topNav :hover{
+  color: #F59836;
+  opacity: 80%;
+}
+#conDeets :hover{
+background-color: rgba(183, 176, 232, .30) ;
+text-size-adjust: 10px;
+}
+
+/* MEDIA QUERY MOBILE*/
+@media only screen and (max-width: 600px){
+    .myWork{
+        display: flex;
+    }
+    .myWork p{
+        font-size: 15px;
+    }
+    .workGrid p{
+        font-size: 15px;
+
+    }
+    .bushFireWRD{
+        align-items: center;
+        justify-content: flex-end;
+        max-width: none;
+    }
+    #bushCont{
+        align-items: flex-end;
+    }
+    #houseMate{
+
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px;
+        column-gap: 20px;
+    }
+    #recomondo{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 180px 180px;
+        grid-template-areas: 
+        "recomondoImg"
+        "recomondoImg seeMore" ;
+        column-gap: 20px;
+        font-size: 
+        15px;
+    }
+    
+
