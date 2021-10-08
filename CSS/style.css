@@ -72,7 +72,7 @@ li{
 .logo{
 }
 body, button, input {
-  letter-spacing: 1.4px;
+  letter-spacing: 1px;
 }
 #primaryNav{
   width: auto;
@@ -352,17 +352,17 @@ li :hover{
   margin-left: -15px;
   padding: 10px;
   padding-top: 20px;
-  margin-top: -50px;
+  margin-top: -130px;
 }
 .aboutText{
     margin-right: 15px;
     justify-content: flex-start;
-    margin-top: -40px;
+    margin-top: -30px;
     
 }
 .aboutText h5{
   margin-top: 20px;
-  padding-left: 20px;
+  
 }
 .skillsPics{
   object-fit:cover;
@@ -370,10 +370,10 @@ li :hover{
 }
 .aboutText p{
   margin-top: 20px;
-  padding-top: -30px;
+  padding-top: -40px;
 }
 
-/* CONTECT US SECTION*/
+/* CONTACT US SECTION*/
 .contactSection {
   background-color: rgba(255, 232, 31, .40);
   display: grid;
