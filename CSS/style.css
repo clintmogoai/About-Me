@@ -273,6 +273,7 @@ li :hover{
   padding: 2px;
   align-items: flex-start;
   text-align: left;
+
   }
   .imageContainer img{
     width: 100%;
@@ -355,9 +356,9 @@ li :hover{
   margin-top: -130px;
 }
 .aboutText{
-    margin-right: 15px;
+    margin-right: 50px;
     justify-content: flex-start;
-    margin-top: -30px;
+    margin-top: -20px;
     
 }
 .aboutText h5{
@@ -432,6 +433,10 @@ li :hover{
   font-family: 'Bebas Neue';
   font-size: 24px;
   margin-top: -10px;
+}
+.forceImg {
+  max-width: 100%;
+  
 }
 
 /* jquery */
